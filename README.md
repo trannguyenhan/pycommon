@@ -3,7 +3,7 @@
 Download:
 
 ```bash
-!wget https://github.com/trannguyenhan/pycommon/blob/master/py_lib_common_func.py -O lib_common_func.py
+!wget https://raw.githubusercontent.com/trannguyenhan/pycommon/refs/heads/master/py_lib_common_func.py -O lib_common_func.py
 ```
 Import:
 
