@@ -3,6 +3,7 @@ from docx.shared import Pt, RGBColor
 from docx import Document
 from docx.shared import Pt
 from docx.oxml.ns import qn
+from unidecode import unidecode
 
 def set_cell_background(cell, color):
     """Set background color for a table cell (color as hex string, e.g., 'D9D9D9')"""
