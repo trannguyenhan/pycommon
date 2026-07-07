@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pycommon"
+version = "1.0.0"
+description = "Thư viện các hàm tiện ích chung cho Python - xử lý Word documents và chuỗi"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "trannguyenhan"}
+]
+keywords = ["word", "document", "docx", "utility", "common", "functions"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "python-docx>=0.8.11",
+    "Unidecode>=1.3.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/trannguyenhan/pycommon"
+Repository = "https://github.com/trannguyenhan/pycommon"
+Issues = "https://github.com/trannguyenhan/pycommon/issues"
+
+[tool.setuptools]
+packages = ["pycommon"]
+
+[tool.setuptools.package-data]
+pycommon = ["py.typed"]
+
